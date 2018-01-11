@@ -127,14 +127,14 @@ export class ChromeFields extends React.Component {
           display: 'none',
         },
         input: {
-          fontSize: '11px',
-          color: '#333',
+          fontSize: '0.8em',
+          color: '#F3F3F3',
           width: '100%',
           borderRadius: '2px',
-          border: 'none',
-          boxShadow: 'inset 0 0 0 1px #dadada',
-          height: '21px',
+          border: '1px solid #5F5F5F',
+          height: '22px',
           textAlign: 'center',
+          background: '#454545'
         },
         label: {
           textTransform: 'uppercase',

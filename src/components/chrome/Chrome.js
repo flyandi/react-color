@@ -13,12 +13,11 @@ export const Chrome = ({ onChange, disableAlpha, rgb, hsl, hsv, hex, renderers,
   const styles = reactCSS(merge({
     'default': {
       picker: {
-        background: '#fff',
+        background: '#525252',
         borderRadius: '2px',
         boxShadow: '0 0 2px rgba(0,0,0,.3), 0 4px 8px rgba(0,0,0,.3)',
         boxSizing: 'initial',
         width: '225px',
-        fontFamily: 'Menlo',
       },
       saturation: {
         width: '100%',
