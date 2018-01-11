@@ -85,7 +85,7 @@ export class ChromeFields extends React.Component {
   }
 
   render() {
-    const styles = reactCSS({
+    const styles = reactCSS(merge({
       'default': {
         wrap: {
           paddingTop: '16px',
@@ -156,7 +156,7 @@ export class ChromeFields extends React.Component {
           display: 'none',
         },
       },
-    }, this.props, this.state)
+    }, this.props.passedStyles && this.props.passedStyles.fieldStyles ? this.props.passedStyles.fieldStyles : {}), this.props, this.state)
 
     let fields
     if (this.state.view === 'hex') {

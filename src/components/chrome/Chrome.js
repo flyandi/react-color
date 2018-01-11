@@ -132,6 +132,7 @@ export const Chrome = ({ onChange, disableAlpha, rgb, hsl, hsv, hex, renderers,
           </div>
         </div>
         <ChromeFields
+          passedStyles={passedStyles}
           rgb={ rgb }
           hsl={ hsl }
           hex={ hex }
