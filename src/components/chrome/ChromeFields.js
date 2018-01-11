@@ -258,12 +258,12 @@ export class ChromeFields extends React.Component {
             >
               <path
                 ref={ iconUp => this.iconUp = iconUp }
-                fill="#333"
+                fill="#BBBBBB"
                 d="M12,5.83L15.17,9L16.58,7.59L12,3L7.41,7.59L8.83,9L12,5.83Z"
               />
               <path
                 ref={ iconDown => this.iconDown = iconDown }
-                fill="#333"
+                fill="#BBBBBB"
                 d="M12,18.17L8.83,15L7.42,16.41L12,21L16.59,16.41L15.17,15Z"
               />
             </svg>
