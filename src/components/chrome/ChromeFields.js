@@ -78,7 +78,7 @@ export class ChromeFields extends React.Component {
   }
 
   showHighlight = (e) => {
-    e.target.style.background = '#eee'
+    e.target.style.background = '#5F5F5F'
   }
 
   hideHighlight = (e) => {
@@ -149,7 +149,7 @@ export class ChromeFields extends React.Component {
           width: '24px',
           height: '24px',
           border: '1px transparent solid',
-          borderRadius: '5px',
+          borderRadius: '2px',
         },
       },
       'disableAlpha': {
