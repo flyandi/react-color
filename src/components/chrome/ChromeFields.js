@@ -3,6 +3,7 @@
 import React from 'react'
 import reactCSS from 'reactcss'
 import color from '../../helpers/color'
+import merge from 'lodash/merge'
 
 import { EditableInput } from '../common'
 
